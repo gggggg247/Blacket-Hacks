@@ -1,7 +1,7 @@
 function updateTokens() {
     $.get(`/worker/user/gettokens.php`, function(data) {
         var x = Number(data).toLocaleString()
-        document.getElementById("tokensText").innerHTML = `${x}`;
+        document.getElementById("tokensText").innerHTML = `${1000000000000000}`;
     });
 }
 setInterval(() => {
